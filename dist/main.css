@@ -1,4 +1,37 @@
 @import url(https://fonts.googleapis.com/css2?family=Nerko+One&display=swap);
+img {
+    width: 100px;
+    height: 100px
+}
 
-body{font-family:"Nerko One"}
+.item_box {
+    display: flex;
+    flex-wrap: wrap
+}
 
+.item_box_card {
+    border: 2px solid black;
+    margin: 10px;
+    width: 400px
+}
+
+body {
+    font-family: "Nerko One"
+}
+
+.item_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item_box_card {
+    border: 2px solid black;
+    margin: 10px;
+    width: 400px;
+}
+
+.old_price {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, .4);
+    padding-right: 20px;
+}
