@@ -1,0 +1,19 @@
+.shirt_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        .newPrice {
+            font-weight: bolder;
+        }
+        .oldPrice {
+            text-decoration: line-through;
+            opacity: 0.6;
+        }
+    }
+}
