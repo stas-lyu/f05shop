@@ -6,3 +6,5 @@ import './scss/base.scss';
 import './scss/style.scss';
 import './scss/shirt.scss';
 import './scss/typography.scss';
+import './js/jeans.js';
+import './scss/jeans.scss';
