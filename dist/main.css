@@ -1,3 +1,5 @@
 
+.shirt_product{display:flex;justify-content:center;align-items:center;flex-direction:column;border:1px solid black}.shirt_product .shirt_name{margin:0 100px}.shirt_product .price{display:flex;justify-content:space-between;align-items:center;gap:10px}.shirt_product .price .newPrice{font-weight:bolder}.shirt_product .price .oldPrice{text-decoration:line-through;opacity:0.6}
+
 body{font-family:'Times New Roman', Times, serif}
 

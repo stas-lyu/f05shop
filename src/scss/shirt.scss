@@ -3,6 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 1px solid black;
+    .shirt_name {
+        margin: 0 100px;
+    }
     .price {
         display: flex;
         justify-content: space-between;
